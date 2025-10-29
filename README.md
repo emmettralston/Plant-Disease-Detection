@@ -66,13 +66,3 @@ The predicted class is displayed on both the LCD and the preview window. Adjust 
 
 Open `ModelTraining.ipynb` in Jupyter Lab/Notebook to review or adapt the training workflow. Export the trained model to TensorFlow Lite and deploy it to the Pi for inference with the detection script.
 
-## Safety considerations
-
-- Double-check relay wiring before powering the pump.
-- Ensure the Pi and pump share a safe common ground and use proper isolation.
-- Stop the scripts with `Ctrl+C` when you need to service sensors or hardware.
-
-## License
-
-This project does not currently include a license. Add one if you intend to distribute or open-source your work.
-
