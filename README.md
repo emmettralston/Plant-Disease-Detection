@@ -66,3 +66,6 @@ The predicted class is displayed on both the LCD and the preview window. Adjust 
 
 Open `ModelTraining.ipynb` in Jupyter Lab/Notebook to review or adapt the training workflow. Export the trained model to TensorFlow Lite and deploy it to the Pi for inference with the detection script.
 
+## License
+
+This project is released under the [MIT License](LICENSE).
