@@ -25,7 +25,7 @@ An accompanying Jupyter notebook (`ModelTraining.ipynb`) is included for retrain
 
 ## Software prerequisites
 
-Install the following packages on your Raspberry Pi (preferably in a virtual environment):
+Install the following packages on your Raspberry Pi:
 
 ```bash
 sudo apt update
@@ -39,7 +39,7 @@ pip3 install tflite-runtime adafruit-circuitpython-dht RPi.GPIO
 
 ### 1. Plant disease detection
 
-1. Copy or place your trained TensorFlow Lite model at the path referenced in the script (`/home/eg1004/Desktop/leaf_link/model_updated.tflite`). Update the `model_path` argument if you store it elsewhere.
+1. Copy or place your trained TensorFlow Lite model at the path referenced in the script .
 2. Connect the camera and LCD to the Pi.
 3. Run the script:
 
@@ -64,7 +64,7 @@ The predicted class is displayed on both the LCD and the preview window. Adjust 
 
 ### 3. Model training notebook
 
-Open `ModelTraining.ipynb` in Jupyter Lab/Notebook to review or adapt the training workflow. Export the trained model to TensorFlow Lite and deploy it to the Pi for inference with the detection script.
+Open `ModelTraining.ipynb` in Notebook to review or adapt the training workflow. Export the trained model to TensorFlow Lite and deploy it to the Pi for inference with the detection script.
 
 ## License
 
